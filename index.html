@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<title>Building web app with amp &amp; pwa</title>
+<style type="text/css">
+.underline { text-decoration: underline; }
+</style>
+<link rel="stylesheet" href="http://cdn.jsdelivr.net/reveal.js/3.0.0/css/reveal.css"/>
+
+<link rel="stylesheet" href="http://cdn.jsdelivr.net/reveal.js/3.0.0/css/theme/moon.css" id="theme"/>
+
+<link rel="stylesheet" href="./amp.css"/>
+
+<!-- If the query includes 'print-pdf', include the PDF print sheet -->
+<script>
+    if( window.location.search.match( /print-pdf/gi ) ) {
+        var link = document.createElement( 'link' );
+        link.rel = 'stylesheet';
+        link.type = 'text/css';
+        link.href = 'http://cdn.jsdelivr.net/reveal.js/3.0.0/css/print/pdf.css';
+        document.getElementsByTagName( 'head' )[0].appendChild( link );
+    }
+</script>
+</head>
+<body>
+<div class="reveal">
+<div class="slides">
+<link href="https://fonts.googleapis.com/css?family=Roboto:100,400,900" rel="stylesheet">
+
+<section>
+<section id="slide-org2439492">
+<h2 id="org2439492">Build blazing fast website</h2>
+<img class="amp-logo" src="./logo-og-image.jpg">
+<br />
+<img class="company-logo tw" src="http://oax4654gb.bkt.clouddn.com/2018/9/16/thoughtworks.png">
+<img class="company-logo freecodecamp" src="http://oax4654gb.bkt.clouddn.com/2018/9/16/freeCodeCamp-alternative.png">
+</section>
+</section>
+<section>
+<section id="slide-orgc44ea13">
+<h2 id="orgc44ea13">The Problem of the web</h2>
+<div class="outline-text-2" id="text-orgc44ea13">
+</div>
+</section>
+<section id="slide-org8aad0d8">
+<h3 id="org8aad0d8">Web 1995</h3>
+<img class="stretch" src="http://oax4654gb.bkt.clouddn.com/2018/9/15/yahooearly1995-734813.jpg">
+</section>
+<section id="slide-org8f6300b">
+<h3 id="org8f6300b">Web 2000</h3>
+<img class="stretch" src="http://oax4654gb.bkt.clouddn.com/2018/9/15/118.jpg">
+</section>
+<section id="slide-orgdd3c900">
+<h3 id="orgdd3c900">Web 2005</h3>
+<img class="stretch" src="http://oax4654gb.bkt.clouddn.com/2018/9/15/1_rkhpmTt83pcleE-8WyVngg.png">
+</section>
+<section id="slide-org9229831">
+<h3 id="org9229831">Web 2018</h3>
+<img class="stretch" src="http://oax4654gb.bkt.clouddn.com/2018/9/15/6a00d83452464869e201bb09fdb9e8970d.png">
+</section>
+<section id="slide-orgc1b4a7a">
+<h3 id="orgc1b4a7a">Javascript Bundle Size</h3>
+<img class="stretch" src="http://oax4654gb.bkt.clouddn.com/2018/9/15/1_NPopFbfbpNG63w2Q9dyBXA.jpeg">
+</section>
+<section id="slide-org0502f66">
+<h3 id="org0502f66">Network</h3>
+<img class="stretch" src="http://oax4654gb.bkt.clouddn.com/2018/9/15/1_BJLqjBqX0n7mNg0YRKIimA.png">
+</section>
+<section id="slide-orgb074e68">
+<h3 id="orgb074e68">User need to wait</h3>
+<img class="stretch" src="http://oax4654gb.bkt.clouddn.com/2018/9/15/1_0WzELcRwNUj0gS89mTxFHg.png">
+</section>
+<section id="slide-org5220279">
+<h3 id="org5220279">The web is bloated by user “experience”</h3>
+<img class="stretch" src="http://oax4654gb.bkt.clouddn.com/2018/9/15/1_9s1xVNn5DdkszfTTcYpaAQ.gif">
+</section>
+<section id="slide-org721c195">
+<h3 id="org721c195">Fast</h3>
+<blockquote>No matter what kind of experience I'm building, I want it to be fast</blockquote>
+</section>
+<section id="slide-orgcfd97fa">
+<h3 id="orgcfd97fa">Why Fast</h3>
+<img class="stretch" src="http://oax4654gb.bkt.clouddn.com/2018/9/15/Screen Shot 2018-09-15 at 11.50.53 AM.png" />
+</section>
+</section>
+<section>
+<section id="slide-orgc435dfc">
+<h2 id="orgc435dfc">What is AMP</h2>
+<p>
+The Accelerated Mobile Pages Project
+</p>
+</section>
+<section id="slide-orge1dbd0d">
+<h3 id="orge1dbd0d">Accelerated Mobile Pages?</h3>
+<img class="stretch" src="http://oax4654gb.bkt.clouddn.com/2018/9/15/PicGIF_mac_GIF_轉檔_6.gif" />
+</section>
+<section id="slide-orge8db99c">
+<h3 id="orge8db99c">AMP Demo</h3>
+<video src="https://www.ampproject.org/static/video/amp-phone.mp4" style="max-height: 400px;" muted="" loop="" controls=""></video>
+</section>
+<section id="slide-org2ba02d9">
+<h3 id="org2ba02d9">AMP search result</h3>
+<img class="stretch" src="http://oax4654gb.bkt.clouddn.com/2018/9/15/Screen Shot 2018-09-15 at 11.32.05 PM.png" />
+</section>
+<section id="slide-org75cb87e">
+<h3 id="org75cb87e">Aliexpress</h3>
+<img class="stretch" src="http://oax4654gb.bkt.clouddn.com/2018/9/15/2018_09_15_1320539520.png" />
+</section>
+<section id="slide-orgdb7482d">
+<h3 id="orgdb7482d">How AMP solve the problem</h3>
+<ul>
+<li>Execute all AMP JavaScript asynchronously</li>
+<li>Minimize style recalculations</li>
+<li>All CSS must be inline and size-bound</li>
+<li>Only run GPU-accelerated animations</li>
+<li>Keep all third-party JavaScript out of the critical path</li>
+<li>&#x2026;</li>
+
+</ul>
+</section>
+<section id="slide-org71ffa0e">
+<h3 id="org71ffa0e">Three pillar</h3>
+<ul>
+<li>AMP HTML</li>
+<li>AMP JS</li>
+<li>AMP Cache</li>
+
+</ul>
+</section>
+</section>
+<section>
+<section id="slide-org9cc89b6">
+<h2 id="org9cc89b6">AMP HTML</h2>
+<img class="stretch" src="http://oax4654gb.bkt.clouddn.com/2018/9/15/Screen Shot 2018-09-15 at 1.51.33 PM.png" />
+</section>
+<section id="slide-org5a09618">
+<h3 id="org5a09618">Disallowed HTML</h3>
+<ul>
+<li>&lt;img&gt;</li>
+<li>&lt;video&gt;</li>
+<li>&lt;audio&gt;</li>
+<li>&lt;iframe&gt;</li>
+<li>&lt;embed&gt;</li>
+<li>&#x2026;</li>
+
+</ul>
+</section>
+<section id="slide-org8118d7b">
+<h3 id="org8118d7b">replacement</h3>
+<ul>
+<li>&lt;amp-img&gt;</li>
+<li>&lt;amp-video&gt;</li>
+<li>&lt;amp-audio&gt;</li>
+<li>&lt;amp-iframe&gt;</li>
+
+</ul>
+</section>
+<section id="slide-org3b5812f">
+<h3 id="org3b5812f">How to use?</h3>
+<img class="stretch" src="http://oax4654gb.bkt.clouddn.com/2018/9/15/Screen Shot 2018-09-15 at 3.05.19 PM.png" />
+</section>
+</section>
+<section>
+<section id="slide-orgd9f5e4a">
+<h2 id="orgd9f5e4a">AMP JS</h2>
+<p>
+<a href="https://cdn.ampproject.org/v0.js">https://cdn.ampproject.org/v0.js</a>
+</p>
+</section>
+<section id="slide-org77b30cd">
+<h3 id="org77b30cd">No custom JS at all(at moment)</h3>
+<img class="stretch" src="http://oax4654gb.bkt.clouddn.com/2018/9/15/giphy.gif" />
+</section>
+<section id="slide-orgf86661a">
+<h3 id="orgf86661a">AMP components</h3>
+<div class="org-src-container">
+
+<pre  class="src src-html">- Ads &amp; analytics:     amp-analytics
+- Dynamic content:     amp-form, amp-bind
+- Layout:              amp-layout, amp-lightbox
+- Media:               amp-audio, amp-youtube
+- Presentation:        amp-animation, amp-story
+- Social:              amp-twitter, amp-social-share
+</pre>
+</div>
+</section>
+<section id="slide-orgb4c5e53">
+<h4 id="orgb4c5e53">amp-layout</h4>
+<video src="http://oax4654gb.bkt.clouddn.com/2018/9/16/amp-layout.mov" style="max-height: 400px;" autoplay muted="" loop=""></video>
+</section>
+<section id="slide-org06dfe4d">
+<h4 id="org06dfe4d">amp-list, amp-mustache</h4>
+<img class="stretch" src="http://oax4654gb.bkt.clouddn.com/2018/9/15/Screen Shot 2018-09-15 at 11.08.27 PM.png" />
+</section>
+<section id="slide-org17ed59c">
+<h4 id="org17ed59c">amp-bind</h4>
+<img class="stretch" src="http://oax4654gb.bkt.clouddn.com/2018/9/15/Screen Shot 2018-09-15 at 11.10.56 PM.png" />
+</section>
+<section id="slide-org426157f">
+<h4 id="org426157f">amp-stories</h4>
+<img class="stretch" src="http://oax4654gb.bkt.clouddn.com/2018/9/15/2018_09_15_2321071416.png" />
+</section>
+<section id="slide-orgcb3b9c5">
+<h4 id="orgcb3b9c5">amp-email</h4>
+<img class="stretch" src="http://oax4654gb.bkt.clouddn.com/2018/9/15/GMAIL_AMP_Booking_V02.gif" />
+</section>
+</section>
+<section>
+<section id="slide-org5fefa04">
+<h2 id="org5fefa04">AMP Cache</h2>
+<img class="stretch" src="http://oax4654gb.bkt.clouddn.com/2018/9/15/CORS_with_Cache.png" />
+</section>
+</section>
+<section>
+<section id="slide-org28809c8">
+<h2 id="org28809c8">AMP Pros &amp; Cons</h2>
+<ul>
+<li>+ SEO Optimize</li>
+<li>+ Performance</li>
+<li>+ Reuseable component</li>
+<li>- Google resource load speed in China</li>
+<li>- Third part javascript library and customise complex javascript logic</li>
+<li>- strict validation rules</li>
+
+</ul>
+</section>
+</section>
+<section>
+<section id="slide-org604ca61">
+<h2 id="org604ca61">AMP vs MIP</h2>
+<img class="stretch" src="http://oax4654gb.bkt.clouddn.com/2018/9/15/Screen Shot 2018-09-15 at 11.24.24 PM.png" />
+</section>
+</section>
+<section>
+<section id="slide-orgd12bf02">
+<h2 id="orgd12bf02">Q&amp;A</h2>
+</section>
+</section>
+<section>
+<section id="slide-orgfe15903">
+<h2 id="orgfe15903">Thanks</h2>
+</section>
+</section>
+</div>
+</div>
+<script src="http://cdn.jsdelivr.net/reveal.js/3.0.0/lib/js/head.min.js"></script>
+<script src="http://cdn.jsdelivr.net/reveal.js/3.0.0/js/reveal.js"></script>
+
+<script>
+// Full list of configuration options available here:
+// https://github.com/hakimel/reveal.js#configuration
+Reveal.initialize({
+
+controls: true,
+progress: true,
+history: true,
+center: true,
+slideNumber: 'c',
+rollingLinks: false,
+keyboard: true,
+overview: true,
+
+theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
+transition: Reveal.getQueryHash().transition || 'concave', // default/cube/page/concave/zoom/linear/fade/none
+transitionSpeed: 'default',
+multiplex: {
+    secret: '', // null if client
+    id: '', // id, obtained from socket.io server
+    url: '' // Location of socket.io server
+},
+
+// Optional libraries used to extend on reveal.js
+dependencies: [
+ { src: 'http://cdn.jsdelivr.net/reveal.js/3.0.0/lib/js/classList.js', condition: function() { return !document.body.classList; } },
+ { src: 'http://cdn.jsdelivr.net/reveal.js/3.0.0/plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+ { src: 'http://cdn.jsdelivr.net/reveal.js/3.0.0/plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+ { src: 'http://cdn.jsdelivr.net/reveal.js/3.0.0/plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+ { src: 'http://cdn.jsdelivr.net/reveal.js/3.0.0/plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }]
+});
+</script>
+</body>
+</html>
