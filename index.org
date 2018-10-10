@@ -1,5 +1,5 @@
 #+REVEAL_ROOT: http://cdn.jsdelivr.net/reveal.js/3.0.0/
-#+TITLE: Building web app with amp & pwa
+#+TITLE: Building web app with PWAMP
 #+Email: ydli@thoughtworks.com
 #+Date:
 #+Author:
@@ -8,8 +8,8 @@
 #+REVEAL_EXTRA_CSS: ./amp.css
 #+REVEAL_HTML: <link href="https://fonts.googleapis.com/css?family=Roboto:100,400,900" rel="stylesheet">
 
-* Building web app with amp & pwa
-  #+REVEAL_HTML: <img class="amp-logo" src="./logo-og-image.jpg">
+* Web app by PWAMP
+  #+REVEAL_HTML: <img class="amp-logo" src="http://oax4654gb.bkt.clouddn.com/2018/10/10/pwa-vs-amp-1540x768.jpg">
   #+REVEAL_HTML: <br />
   #+REVEAL_HTML: <img class="company-logo tw" src="http://oax4654gb.bkt.clouddn.com/2018/9/16/thoughtworks.png">
   #+REVEAL_HTML: <img class="company-logo freecodecamp" src="http://oax4654gb.bkt.clouddn.com/2018/9/16/freeCodeCamp-alternative.png">
@@ -34,6 +34,26 @@
   #+REVEAL_HTML: <blockquote>No matter what kind of experience I'm building, I want it to be fast</blockquote>
 ** Why Fast
   #+REVEAL_HTML: <img class="stretch" src="http://oax4654gb.bkt.clouddn.com/2018/9/15/Screen Shot 2018-09-15 at 11.50.53 AM.png" />
+
+
+
+* What's the solution?
+* Demo time
+* What's the PWAMP way?
+** what's the PWA
+** what's the AMP
+** how they can work together
+*** AMP up
+    AMP boot up PWA shell
+*** AMP down
+    Boot PWA shell first, load AMP pages as data source
+* Pros and Cons
+* Q&A
+* Thanks
+
+
+
+
 * What is AMP
   The Accelerated Mobile Pages Project
 ** Accelerated Mobile Pages?
@@ -105,5 +125,3 @@
 - - strict validation rules
 * AMP vs MIP
   #+REVEAL_HTML: <img class="stretch" src="http://oax4654gb.bkt.clouddn.com/2018/9/15/Screen Shot 2018-09-15 at 11.24.24 PM.png" />
-* Q&A
-* Thanks
