@@ -12,7 +12,7 @@
   #+REVEAL_HTML: <img class="amp-logo" src="http://oax4654gb.bkt.clouddn.com/2018/10/10/pwa-vs-amp-1540x768.jpg">
   #+REVEAL_HTML: <br />
   #+REVEAL_HTML: <img class="company-logo tw" src="http://oax4654gb.bkt.clouddn.com/2018/9/16/thoughtworks.png">
-  #+REVEAL_HTML: <img class="company-logo freecodecamp" src="http://oax4654gb.bkt.clouddn.com/2018/9/16/freeCodeCamp-alternative.png">
+  #+REVEAL_HTML: <img class="company-logo" src="http://oax4654gb.bkt.clouddn.com/2018/6/30/logo-lockup-gdg-horizontal.png">
 * The Problem of the web
 ** Web 1995
   #+REVEAL_HTML: <img class="stretch" src="http://oax4654gb.bkt.clouddn.com/2018/9/15/yahooearly1995-734813.jpg">
@@ -38,7 +38,42 @@
 
 
 * What's the solution?
-* Demo time
+  #+REVEAL_HTML: <img class="amp-logo" src="http://oax4654gb.bkt.clouddn.com/2018/10/13/logo-og-image.jpg">
+** AMP demo
+   #+REVEAL_HTML: <img class="stretch" src="http://oax4654gb.bkt.clouddn.com/2018/9/15/2018_09_15_1320539520.png" />
+** AMP search result
+   #+REVEAL_HTML:  <video src="https://www.ampproject.org/static/video/amp-phone.mp4" style="max-height: 400px;" muted="" loop="" controls=""></video>
+** What is AMP?
+- AMP HTML
+- AMP JS
+- AMP Cache
+** AMP components
+#+BEGIN_SRC html
+- Ads & analytics:     amp-analytics
+- Dynamic content:     amp-form, amp-bind
+- Layout:              amp-layout, amp-lightbox
+- Media:               amp-audio, amp-youtube
+- Presentation:        amp-animation, amp-story
+- Social:              amp-twitter, amp-social-share
+#+END_SRC
+*** amp-layout
+   #+REVEAL_HTML:  <video src="http://oax4654gb.bkt.clouddn.com/2018/9/16/amp-layout.mov" style="max-height: 400px;" autoplay muted="" loop=""></video>
+*** amp-list, amp-mustache
+  #+REVEAL_HTML: <img class="stretch" src="http://oax4654gb.bkt.clouddn.com/2018/9/15/Screen Shot 2018-09-15 at 11.08.27 PM.png" />
+*** amp-bind
+  #+REVEAL_HTML: <img class="stretch" src="http://oax4654gb.bkt.clouddn.com/2018/9/15/Screen Shot 2018-09-15 at 11.10.56 PM.png" />
+*** amp-stories
+  #+REVEAL_HTML: <img class="stretch" src="http://oax4654gb.bkt.clouddn.com/2018/9/15/2018_09_15_2321071416.png" />
+*** amp-email
+  #+REVEAL_HTML: <img class="stretch" src="http://oax4654gb.bkt.clouddn.com/2018/9/15/GMAIL_AMP_Booking_V02.gif" />
+* Is my web app good enough?
+   #+REVEAL_HTML: <img class="stretch" src="http://oax4654gb.bkt.clouddn.com/2018/10/13/husky.gif" />
+** Offline
+   #+REVEAL_HTML: <img class="stretch" src="http://oax4654gb.bkt.clouddn.com/2018/10/13/Screen Shot 2018-10-13 at 9.16.29 AM.png" />
+** What's the power of the native App?
+ - Offline Support
+ - Desktop App
+ - Notification
 * What's the PWAMP way?
 ** what's the PWA
 ** what's the AMP
@@ -47,6 +82,7 @@
     AMP boot up PWA shell
 *** AMP down
     Boot PWA shell first, load AMP pages as data source
+* AmpbyExample.com
 * Pros and Cons
 * Q&A
 * Thanks
