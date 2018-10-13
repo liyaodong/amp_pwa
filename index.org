@@ -93,7 +93,7 @@
 - Offline support by Cache
 - Push message
 ** Service Worker
-  #+REVEAL_HTML: <img src="http://oax4654gb.bkt.clouddn.com/2018/6/30/Screen Shot 2018-06-28 at 8.45.41 PM.png">
+  #+REVEAL_HTML: <img src="http://oax4654gb.bkt.clouddn.com/2018/10/13/Screen Shot 2018-10-13 at 9.56.24 AM.png">
 * What's the PWAMP way?
   #+REVEAL_HTML: <img class="stretch" src="http://oax4654gb.bkt.clouddn.com/2018/10/13/husky.gif" />
 ** DEMO
