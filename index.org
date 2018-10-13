@@ -47,7 +47,9 @@
 - AMP HTML
 - AMP JS
 - AMP Cache
-** AMP components
+** AMP Components
+  #+REVEAL_HTML: <img class="amp-logo" src="http://oax4654gb.bkt.clouddn.com/2018/10/13/Screen Shot 2018-10-13 at 10.47.09 AM.png">
+** AMP Components
 #+BEGIN_SRC html
 - Ads & analytics:     amp-analytics
 - Dynamic content:     amp-form, amp-bind
@@ -95,11 +97,13 @@
 * What's the PWAMP way?
   #+REVEAL_HTML: <img class="stretch" src="http://oax4654gb.bkt.clouddn.com/2018/10/13/husky.gif" />
 ** DEMO
-https://ampbyexample.com/
+   https://amp.cards
+   https://ampbyexample.com/
+   https://polymer-news-amp.appspot.com/list/top_stories
 ** how they can work together
-*** AMP up
-    AMP boot up PWA shell
-*** AMP down
-    Boot PWA shell first, load AMP pages as data source
+   PWA Shell + Shadow AMP
+** APP Shell
+  #+REVEAL_HTML: <img class="stretch" src="http://oax4654gb.bkt.clouddn.com/2018/10/13/app-shell.jpeg" />
 * Q&A
+- PWAMP VS 微信小程序 VS 快应用
 * Thanks
