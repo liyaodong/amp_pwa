@@ -9,38 +9,38 @@
 #+REVEAL_HTML: <link href="https://fonts.googleapis.com/css?family=Roboto:100,400,900" rel="stylesheet">
 
 * Web app by PWAMP
-  #+REVEAL_HTML: <img class="amp-logo" src="http://oax4654gb.bkt.clouddn.com/2018/10/10/pwa-vs-amp-1540x768.jpg">
+  #+REVEAL_HTML: <img class="amp-logo" src="https://image.liyaodong.com/2018/10/10/pwa-vs-amp-1540x768.jpg">
   #+REVEAL_HTML: <br />
-  #+REVEAL_HTML: <img class="company-logo tw" src="http://oax4654gb.bkt.clouddn.com/2018/9/16/thoughtworks.png">
-  #+REVEAL_HTML: <img class="company-logo" src="http://oax4654gb.bkt.clouddn.com/2018/6/30/logo-lockup-gdg-horizontal.png">
+  #+REVEAL_HTML: <img class="company-logo tw" src="https://image.liyaodong.com/2018/9/16/thoughtworks.png">
+  #+REVEAL_HTML: <img class="company-logo" src="https://image.liyaodong.com/2018/6/30/logo-lockup-gdg-horizontal.png">
 * The Problem of the web
 ** Web 1995
-  #+REVEAL_HTML: <img class="stretch" src="http://oax4654gb.bkt.clouddn.com/2018/9/15/yahooearly1995-734813.jpg">
+   #+REVEAL_HTML: <img class="stretch" src="https://image.liyaodong.com/2018/9/15/yahooearly1995-734813.jpg">
 ** Web 2000
-  #+REVEAL_HTML: <img class="stretch" src="http://oax4654gb.bkt.clouddn.com/2018/9/15/118.jpg">
+  #+REVEAL_HTML: <img class="stretch" src="https://image.liyaodong.com/2018/9/15/118.jpg">
 ** Web 2005
-  #+REVEAL_HTML: <img class="stretch" src="http://oax4654gb.bkt.clouddn.com/2018/9/15/1_rkhpmTt83pcleE-8WyVngg.png">
+  #+REVEAL_HTML: <img class="stretch" src="https://image.liyaodong.com/2018/9/15/1_rkhpmTt83pcleE-8WyVngg.png">
 ** Web 2018
-  #+REVEAL_HTML: <img class="stretch" src="http://oax4654gb.bkt.clouddn.com/2018/9/15/6a00d83452464869e201bb09fdb9e8970d.png">
+  #+REVEAL_HTML: <img class="stretch" src="https://image.liyaodong.com/2018/9/15/6a00d83452464869e201bb09fdb9e8970d.png">
 ** Javascript Bundle Size
-  #+REVEAL_HTML: <img class="stretch" src="http://oax4654gb.bkt.clouddn.com/2018/9/15/1_NPopFbfbpNG63w2Q9dyBXA.jpeg">
+  #+REVEAL_HTML: <img class="stretch" src="https://image.liyaodong.com/2018/9/15/1_NPopFbfbpNG63w2Q9dyBXA.jpeg">
 ** Network
-  #+REVEAL_HTML: <img class="stretch" src="http://oax4654gb.bkt.clouddn.com/2018/9/15/1_BJLqjBqX0n7mNg0YRKIimA.png">
+  #+REVEAL_HTML: <img class="stretch" src="https://image.liyaodong.com/2018/9/15/1_BJLqjBqX0n7mNg0YRKIimA.png">
 ** User need to wait
-  #+REVEAL_HTML: <img class="stretch" src="http://oax4654gb.bkt.clouddn.com/2018/9/15/1_0WzELcRwNUj0gS89mTxFHg.png">
+  #+REVEAL_HTML: <img class="stretch" src="https://image.liyaodong.com/2018/9/15/1_0WzELcRwNUj0gS89mTxFHg.png">
 ** The web is bloated by user “experience”
-  #+REVEAL_HTML: <img class="stretch" src="http://oax4654gb.bkt.clouddn.com/2018/9/15/1_9s1xVNn5DdkszfTTcYpaAQ.gif">
+  #+REVEAL_HTML: <img class="stretch" src="https://image.liyaodong.com/2018/9/15/1_9s1xVNn5DdkszfTTcYpaAQ.gif">
 ** Fast
   #+REVEAL_HTML: <blockquote>No matter what kind of experience I'm building, I want it to be fast</blockquote>
 ** Why Fast
-  #+REVEAL_HTML: <img class="stretch" src="http://oax4654gb.bkt.clouddn.com/2018/9/15/Screen Shot 2018-09-15 at 11.50.53 AM.png" />
+  #+REVEAL_HTML: <img class="stretch" src="https://image.liyaodong.com/2018/9/15/Screen Shot 2018-09-15 at 11.50.53 AM.png" />
 
 
 
 * What's the solution?
-  #+REVEAL_HTML: <img class="amp-logo" src="http://oax4654gb.bkt.clouddn.com/2018/10/13/logo-og-image.jpg">
+  #+REVEAL_HTML: <img class="amp-logo" src="https://image.liyaodong.com/2018/10/13/logo-og-image.jpg">
 ** AMP demo
-   #+REVEAL_HTML: <img class="stretch" src="http://oax4654gb.bkt.clouddn.com/2018/9/15/2018_09_15_1320539520.png" />
+   #+REVEAL_HTML: <img class="stretch" src="https://image.liyaodong.com/2018/9/15/2018_09_15_1320539520.png" />
 ** AMP search result
    #+REVEAL_HTML:  <video src="https://www.ampproject.org/static/video/amp-phone.mp4" style="max-height: 400px;" muted="" loop="" controls=""></video>
 ** What is AMP?
@@ -48,7 +48,7 @@
 - AMP JS
 - AMP Cache
 ** AMP Components
-  #+REVEAL_HTML: <img class="amp-logo" src="http://oax4654gb.bkt.clouddn.com/2018/10/13/Screen Shot 2018-10-13 at 10.47.09 AM.png">
+  #+REVEAL_HTML: <img class="amp-logo" src="https://image.liyaodong.com/2018/10/13/Screen Shot 2018-10-13 at 10.47.09 AM.png">
 ** AMP Components
 #+BEGIN_SRC html
 - Ads & analytics:     amp-analytics
@@ -59,17 +59,17 @@
 - Social:              amp-twitter, amp-social-share
 #+END_SRC
 *** amp-layout
-   #+REVEAL_HTML:  <video src="http://oax4654gb.bkt.clouddn.com/2018/9/16/amp-layout.mov" style="max-height: 400px;" autoplay muted="" loop=""></video>
+   #+REVEAL_HTML:  <video src="https://image.liyaodong.com/2018/9/16/amp-layout.mov" style="max-height: 400px;" autoplay muted="" loop=""></video>
 *** amp-list, amp-mustache
-  #+REVEAL_HTML: <img class="stretch" src="http://oax4654gb.bkt.clouddn.com/2018/9/15/Screen Shot 2018-09-15 at 11.08.27 PM.png" />
+  #+REVEAL_HTML: <img class="stretch" src="https://image.liyaodong.com/2018/9/15/Screen Shot 2018-09-15 at 11.08.27 PM.png" />
 *** amp-bind
-  #+REVEAL_HTML: <img class="stretch" src="http://oax4654gb.bkt.clouddn.com/2018/9/15/Screen Shot 2018-09-15 at 11.10.56 PM.png" />
+  #+REVEAL_HTML: <img class="stretch" src="https://image.liyaodong.com/2018/9/15/Screen Shot 2018-09-15 at 11.10.56 PM.png" />
 *** amp-email
-  #+REVEAL_HTML: <img class="stretch" src="http://oax4654gb.bkt.clouddn.com/2018/9/15/GMAIL_AMP_Booking_V02.gif" />
+  #+REVEAL_HTML: <img class="stretch" src="https://image.liyaodong.com/2018/9/15/GMAIL_AMP_Booking_V02.gif" />
 * Is it good enough?
-   #+REVEAL_HTML: <img class="stretch" src="http://oax4654gb.bkt.clouddn.com/2018/10/13/husky.gif" />
+   #+REVEAL_HTML: <img class="stretch" src="https://image.liyaodong.com/2018/10/13/husky.gif" />
 ** Offline
-   #+REVEAL_HTML: <img class="stretch" src="http://oax4654gb.bkt.clouddn.com/2018/10/13/Screen Shot 2018-10-13 at 9.16.29 AM.png" />
+   #+REVEAL_HTML: <img class="stretch" src="https://image.liyaodong.com/2018/10/13/Screen Shot 2018-10-13 at 9.16.29 AM.png" />
 ** What's the power of the native App?
  - Offline Support
  - Performance
@@ -79,23 +79,23 @@
 ** What web can do today
    #+REVEAL_HTML: <iframe width="800" height="500" src="https://whatwebcando.today/"></iframe>
 ** How to do it?
-   #+REVEAL_HTML: <img class="stretch" src="http://oax4654gb.bkt.clouddn.com/2018/10/13/1_hWVmsnBY6Fr6OoNvIU5pmg.png" />
+   #+REVEAL_HTML: <img class="stretch" src="https://image.liyaodong.com/2018/10/13/1_hWVmsnBY6Fr6OoNvIU5pmg.png" />
 ** PWA Principles
-  #+REVEAL_HTML: <img class="stretch" src="http://oax4654gb.bkt.clouddn.com/2018/6/28/Screen Shot 2018-06-28 at 8.44.05 PM.png">
+  #+REVEAL_HTML: <img class="stretch" src="https://image.liyaodong.com/2018/6/28/Screen Shot 2018-06-28 at 8.44.05 PM.png">
 ** Add to home screen
   #+REVEAL_HTML: <img src="https://developers.google.com/web/fundamentals/app-install-banners/images/add-to-home-screen.gif">
 ** Credential Management API
   #+REVEAL_HTML: <video src="https://developers.google.com/web/fundamentals/security/credential-management/animations/credential-management-smaller.mov" style="max-height: 400px;" autoplay="" muted="" loop="" controls=""></video>
 ** Service Worker
-  #+REVEAL_HTML: <img src="http://oax4654gb.bkt.clouddn.com/2018/6/30/Screen Shot 2018-06-28 at 8.45.41 PM.png">
+  #+REVEAL_HTML: <img src="https://image.liyaodong.com/2018/6/30/Screen Shot 2018-06-28 at 8.45.41 PM.png">
 ** Service Worker
 - Network Proxy
 - Offline support by Cache
 - Push message
 ** Service Worker
-  #+REVEAL_HTML: <img src="http://oax4654gb.bkt.clouddn.com/2018/10/13/Screen Shot 2018-10-13 at 9.56.24 AM.png">
+  #+REVEAL_HTML: <img src="https://image.liyaodong.com/2018/10/13/Screen Shot 2018-10-13 at 9.56.24 AM.png">
 * What's the PWAMP way?
-  #+REVEAL_HTML: <img class="stretch" src="http://oax4654gb.bkt.clouddn.com/2018/10/13/husky.gif" />
+  #+REVEAL_HTML: <img class="stretch" src="https://image.liyaodong.com/2018/10/13/husky.gif" />
 ** DEMO
    https://amp.cards
    https://ampbyexample.com/
@@ -103,7 +103,7 @@
 ** how they can work together
    PWA Shell + Shadow AMP
 ** APP Shell
-  #+REVEAL_HTML: <img class="stretch" src="http://oax4654gb.bkt.clouddn.com/2018/10/13/app-shell.jpeg" />
+  #+REVEAL_HTML: <img class="stretch" src="https://image.liyaodong.com/2018/10/13/app-shell.jpeg" />
 * Q&A
 - PWAMP VS 微信小程序 VS 快应用
 * Thanks
